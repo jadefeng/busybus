@@ -1,0 +1,79 @@
+.container {
+	width: 320px;
+	margin: 0 auto;
+	background-color: #FD7F38;
+	font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	color: white;
+}
+
+nav > h1 {
+	text-align: center;
+	letter-spacing: 2px;
+	font-size: 1.2em;
+}
+
+.arrow {
+	float: left;
+	font-size: 1.5em;
+	margin-left: 15px;
+	vertical-align: middle;
+}
+
+.bus_stop {
+	padding: 20px;
+	background-color: #F7A26E;
+	color: white;
+	text-align: center;
+	letter-spacing: 2px;
+
+}
+
+.bus_container {
+	background-color: white;
+}
+
+.bus_card {
+	width: 100%;
+	margin: 0 auto;
+	height: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid grey;
+}
+
+.bus_card:hover {
+	background-color: #f9d0b8;
+}
+
+.bus_card > .line {
+	width: 15%;
+	float: left;
+	padding-left: 10px;
+	padding-top: 10px;
+	font-size: 1.5em;
+	letter-spacing: 1px;
+}
+
+.bus_card > .destination {
+	width: 60%;
+	float: left;
+	padding-left: 5px;
+}
+
+.destination > h1, .frequency > h1 {
+	font-size: 1.1em;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+.bus_card > .frequency {
+	width: 20%;
+	float: left;
+	color: #FD7F38;
+	text-align: right;
+}
