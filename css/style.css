@@ -1,13 +1,19 @@
 .container {
-	width: 320px;
+	width: 375px; /*iphone screen*/
 	margin: 0 auto;
 	background-color: #FD7F38;
 	font-family: 'Open Sans', sans-serif;
 }
 
+.statusbar {
+	width:100%;
+	top: 0px;
+	margin-top: 0px;
+}
+
 nav {
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	color: white;
 }
 
@@ -65,15 +71,19 @@ nav > h1 {
 	padding-left: 5px;
 }
 
+
+.bus_card > .frequency {
+	width: 15%;
+	float: left;
+	color: #FD7F38;
+	text-align: right;
+}
+
 .destination > h1, .frequency > h1 {
-	font-size: 1.1em;
 	font-weight: bold;
 	padding-bottom: 10px;
 }
 
-.bus_card > .frequency {
-	width: 20%;
-	float: left;
-	color: #FD7F38;
-	text-align: right;
+ol {
+  list-style: none;
 }
