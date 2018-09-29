@@ -1,8 +1,14 @@
+body {
+	background-color: black;
+}
+
 .container {
 	width: 375px; /*iphone screen*/
 	margin: 0 auto;
 	background-color: #FD7F38;
 	font-family: 'Open Sans', sans-serif;
+	max-height: 667px;
+	overflow-y: scroll;
 }
 
 .statusbar {
